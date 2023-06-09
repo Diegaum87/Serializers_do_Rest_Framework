@@ -1,0 +1,15 @@
+# 1:1
+
+user -> address
+
+# 1:N
+
+user -> [receita1,receita2,receita3]
+
+# N:N
+
+receita1 = [ingrediente1,ingrediente2,ingrediente3]
+receita2 = [ingrediente1,ingrediente2,ingrediente3]
+receita3 = [ingrediente1,ingrediente2,ingrediente3]
+
+ingrediente1 = [receita1,receita2,receita3]
